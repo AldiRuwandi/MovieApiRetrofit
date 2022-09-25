@@ -1,0 +1,30 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.movieapiretrofit.activity.MainActivity">
+
+    <item
+        android:id="@+id/action_popular"
+        android:orderInCategory="100"
+        android:title="Popular"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_now_playing"
+        android:orderInCategory="100"
+        android:title="Now Playing"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_list_view"
+        android:orderInCategory="100"
+        android:title="List View"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_grid_view"
+        android:orderInCategory="100"
+        android:title="Grid View"
+        app:showAsAction="never"/>
+
+</menu>
